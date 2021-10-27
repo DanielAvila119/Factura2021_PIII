@@ -32,8 +32,9 @@ namespace Factura_2021.Modelos.DAO
             catch (Exception)
             {
 
-                throw;
+                
             }
+            return valido;
         }
         
     }
