@@ -33,7 +33,10 @@ namespace Factura_2021.Controladores
             esValido = userDAO.ValidarUsuario(user);
             if (esValido)
             {
-                MessageBox.Show("Usuario Correcto");
+                //MessageBox.Show("Usuario Correcto");
+                MenuView menu = new MenuView();
+                vista.Hide();
+                menu.Show();
             }
             else
             {
